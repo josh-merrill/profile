@@ -1,82 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Raleway:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Raleway:wght@800&display=swap");
 
 body {
-  background-color: #F6F9FC;
-  font-family: 'Merriweather', serif;
+  background-color: #f6f9fc;
+  font-family: "Merriweather", serif;
   font-weight: 300;
   color: #333333;
   font-size: 16px;
   line-height: 1.75em;
 }
 
-h1, h2 {
-  font-family: 'Raleway', sans-serif;
-  color: #07689F;
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #07689f;
   font-weight: 800;
 }
 
 h2 {
-  color: #2E8FC6;
+  color: #2e8fc6;
   font-size: 20px;
 }
 
- a {
-   font-family: 'Raleway', sans-serif;
-   text-decoration: none;
- }
+a {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
 
- a:hover {
+a:hover {
   background-color: black;
   color: white;
- }
+}
 
- img {
-   height: 100px;
-   width: 100px;
-   border-radius: 50%;
- }
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
 
- .container {
-   width: 700px;
-   margin: 40px auto;
- }
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
 
- #introduction p {
-   margin-bottom: 40px;
- }
+#introduction p {
+  margin-bottom: 40px;
+}
 
- .card {
+.card {
   background-color: white;
   padding: 40px;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
- }
+}
 
- .yellow-btn {
-   background-color: #F9B208;
-   color: white;
-   padding: 15px 20px;
-   border-radius: 4px;
- }
+.yellow-btn {
+  background-color: #f9b208;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
 
- .list-inline {
-   list-style: none;
-   padding-left: 0px;
- }
+.yellow-btn:hover {
+  background-color: #e0a007;
+  transition: all 0.5s ease;
+}
 
- .list-inline a {
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline a {
   font-size: 50px;
-  color: rgb(230, 230, 230);
- }
+  color: #e6e6e6;
+}
 
- .list-inline a:hover {
-  color: black;
+.list-inline a:hover {
+  color: #cfcfcf;
   background-color: transparent;
- }
+  transition: all 0.5s ease;
+}
 
- .list-inline > li {
+.list-inline > li {
   display: inline-block;
   padding: 10px;
 }
